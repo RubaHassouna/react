@@ -1,0 +1,38 @@
+movie-page{
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-heading{
+    font-weight: 600 ;
+    font-size: larger;
+    color: #d14545;   
+    justify-content: space-between; 
+    }
+h1{
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    color: #645151;
+    font: 2em sans-serif;    
+}
+.card-header{
+    font-weight: 600;
+    font-size: larger;
+    color: #aa5353;
+
+}
+img{
+    height: 300px;
+    width: 100px;
+}
+button{
+    justify-content:space-between;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
