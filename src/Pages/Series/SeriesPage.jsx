@@ -1,6 +1,8 @@
 import { Data } from "../../components/Series/Data"
 import Series from "../../components/Series/Series"
 
+import Header from "../../components/Header";
+import SideBar from "../../components/SideBar";
 
 function SeriesPage(){
 
@@ -11,8 +13,15 @@ const dataShow = Data.map((item) =>
  rating={item.rating}
  /> );
     return(
-        <div className="d-flex flex-row  justify-content-between" style={{height:""}}>
+      <div>
+
+     <Header/>
+     <div className="d-flex flex-row  justify-content-between" style={{height:""}}>
+     <SideBar/>
+       
+         
           {dataShow}
+        </div>
         </div>
     )
 }

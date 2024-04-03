@@ -1,5 +1,4 @@
 import { Card } from "react-bootstrap";
-
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/swiper-bundle.min.css';
 
@@ -13,8 +12,16 @@ function Series(props) {
   console.log(props);
 
   return (
+    <div>
+    {/* <Header /> */}
+    <div className="content-flex">
+      {/* <SideBar /> */}
+      <div style={{ width: "80%" }}>
+        
     <div className="series-page">
+   
     <div className="Cards-container ">
+      
       <Card className="Card" style={{ width: "200px", height: "" }}>
         {/* <Card> */}
         <div className="frontt" style={{}}>
@@ -25,7 +32,7 @@ function Series(props) {
             style={{ height: "300px" }}
           />
         </div>
-        <Card.Body className=" d-flex flex-row flex-wrap gap-3 justify-content-center ">
+        <Card.Body className="  d-flex flex-row flex-wrap gap-3 justify-content-center ">
           <div className="frontt">
             <Card.Title className="title">{props.title} </Card.Title>
           </div>
@@ -53,6 +60,9 @@ function Series(props) {
         <h2>{props.Desc}</h2>
       </div> */}
     </div>
+    </div>
+     </div>
+    </div> 
     </div>
   );
 }

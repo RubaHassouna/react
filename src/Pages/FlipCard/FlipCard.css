@@ -1,9 +1,12 @@
-
+Header{
+    background-image: url(app.jpeg);
+}
 .id-card{
   
     height: 100vh;
     overflow: hidden;
     background: linear-gradient(45deg,#ab7ad3,#282035);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
     display: flex;

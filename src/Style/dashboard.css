@@ -1,0 +1,31 @@
+.content-flex{
+   display: flex;
+
+}
+header {
+    box-shadow: 1px 1px 10px 1px coral;
+    background-image: url(app.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-bar {
+    padding: 20px;
+    border-right: 1px solid wheat;
+    width: 130%;
+    height: 100%;
+    /* background-color: #fccde0; */
+
+   
+    border-radius: 14px;
+  }
+  
+  .item-link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
